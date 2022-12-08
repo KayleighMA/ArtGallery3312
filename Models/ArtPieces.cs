@@ -34,9 +34,15 @@ namespace ArtGallery3312.Models
 
         public int PurchaseID {get; set;}
 
-
-
-
+    }
+    public class PurchaseArt
+    {
+        public int ArtPieceID {get; set;}
+        public int CustomerID {get; set;}
+        public int PurchaseID {get; set;}
+        public Customer Customer {get; set;} = default!;
+        public Purchase Purchase {get; set;} = default!;
+        public List<ArtPiece>? ArtPieces {get; set;} = default!;
 
     }
 }
