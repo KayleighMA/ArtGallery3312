@@ -8,6 +8,6 @@ namespace ArtGallery3312.Models
         {
         }
 
-        public DbSet<ArtPieces> ArtPieces {get; set;} = default!;
+        public DbSet<ArtPiece> ArtPieces {get; set;} = default!;
     }
 }

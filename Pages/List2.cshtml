@@ -1,0 +1,13 @@
+@page
+@model ArtGallery3312.Pages.List1.List1Model
+
+@{
+    ViewData["Title"] = "List #2";
+}
+
+<div class = "topnav">
+    <input type="text" placeholder="Search">
+</div>
+
+<h1>List #1 of available paintings</h1>
+<p> @Html.DisplayFor(modelItem => Model.ArtList2)</p>
