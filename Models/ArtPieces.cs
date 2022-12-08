@@ -25,7 +25,7 @@ namespace ArtGallery3312.Models
 
         [Display(Name = "Artist Birthday")]
         [DataType(DataType.Date)]
-        public DateOnly ArtistBirth {get; set;}
+        public DateTime ArtistBirth {get; set;}
 
         [Range(1,500)]
         [DataType(DataType.Currency)]
